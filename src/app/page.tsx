@@ -253,7 +253,7 @@ export default function Page() {
               </div>
             </div>
           </BlurFade>
-          <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 max-w-[800px] mx-auto justify-items-center'>
+          <div className='grid grid-cols-1 gap-y-8 gap-x-12 sm:grid-cols-2 max-w-[800px] mx-auto justify-items-center'>
             {RECENT_WORKS.length === 0 && (
               <p className='text-muted-foreground sm:col-span-2'>
                 New works are being added — check back soon.
