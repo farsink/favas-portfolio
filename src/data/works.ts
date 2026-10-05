@@ -9,7 +9,20 @@ export interface RecentWork {
 }
 
 export const RECENT_WORKS: RecentWork[] = [
-  // Add links here, e.g.:
-  // { url: "https://www.instagram.com/p/CUbHfhpswxt/", captioned: true },
-  // { url: "https://www.instagram.com/reel/XXXXXXXX/", captioned: false },
+  {
+    url: "https://www.instagram.com/reel/DcgftNzz-U6/",
+    captioned: true,
+  },
+  {
+    url: "https://www.instagram.com/reel/DcLxlk3ib6F/",
+    captioned: true,
+  },
+  {
+    url: "https://www.instagram.com/reel/DVlAr85k8lv/",
+    captioned: true,
+  },
+  {
+    url: "https://www.instagram.com/reel/DO0ywSOj-Gk/?stkn=N2xmZ3FjMXl5bnIy",
+    captioned: true,
+  },
 ];
