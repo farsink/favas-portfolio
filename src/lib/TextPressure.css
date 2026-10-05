@@ -1,0 +1,15 @@
+.stroke span {
+  position: relative;
+  color: #ffffff;
+}
+
+.stroke span::after {
+  content: attr(data-char);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: transparent;
+  z-index: -1;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ff0000;
+}
