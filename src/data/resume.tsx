@@ -146,7 +146,7 @@ export const DATA: ResumeData = {
       },
       Instagram: {
         name: "Instagram",
-        url: "https://instagram.com/favastories",
+        url: "https://www.instagram.com/favas.k_/", 
         icon: Icons.instagram,
         navbar: true,
       },
