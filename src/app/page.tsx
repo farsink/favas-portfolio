@@ -4,6 +4,10 @@ import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
+import {
+  InstagramFollowerCard,
+  YouTubeSubscriberCard,
+} from "@/components/youtube-subscriber-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -232,6 +236,19 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
+        </div>
+      </section>
+      <section id='handles'>
+        <div className='flex min-h-0 flex-col gap-y-3'>
+          <BlurFade delay={BLUR_FADE_DELAY * 10.75}>
+            <h2 className='text-xl font-bold'>My Handles</h2>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 11}>
+            <YouTubeSubscriberCard />
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 11.25}>
+            <InstagramFollowerCard />
+          </BlurFade>
         </div>
       </section>
       <section id='projects'>
